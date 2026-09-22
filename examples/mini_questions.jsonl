@@ -1,0 +1,4 @@
+{"id":"mini-rag-1","question":"Why evaluate retrieval before generation in a RAG system?","relevant_doc_ids":["rag_basics"],"answer_terms":["retrieval","generation","context"]}
+{"id":"mini-cv-1","question":"What dataset issues can hurt computer vision model quality?","relevant_doc_ids":["vision_quality"],"answer_terms":["annotation","class imbalance","bounding boxes"]}
+{"id":"mini-serving-1","question":"What matters when turning a model into a service?","relevant_doc_ids":["model_serving"],"answer_terms":["typed inputs","validated outputs","versioned artifacts"]}
+

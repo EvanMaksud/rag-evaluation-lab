@@ -1,0 +1,6 @@
+{"id":"wiki-rag-1","question":"What does retrieval augmented generation combine before producing an answer?","relevant_doc_ids":["retrieval_augmented_generation"],"answer_terms":["retrieval","generation"]}
+{"id":"wiki-llm-1","question":"What kind of model is trained on large text data and used for language tasks?","relevant_doc_ids":["large_language_model"],"answer_terms":["language","model"]}
+{"id":"wiki-ir-1","question":"Which field studies finding information resources relevant to a user's query?","relevant_doc_ids":["information_retrieval"],"answer_terms":["information","query"]}
+{"id":"wiki-dhaka-1","question":"Dhaka is the capital city of which country?","relevant_doc_ids":["dhaka","bangladesh"],"answer_terms":["bangladesh","capital"]}
+{"id":"wiki-climate-1","question":"Which Bangladesh topic discusses long-term climate impacts and adaptation?","relevant_doc_ids":["climate_change_in_bangladesh"],"answer_terms":["climate","bangladesh"]}
+

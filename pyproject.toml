@@ -1,0 +1,22 @@
+[project]
+name = "rag-evaluation-lab"
+version = "0.1.0"
+description = "Local-first retrieval evaluation toolkit for RAG systems."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Evan Maksud" }]
+license = { text = "MIT" }
+keywords = ["rag", "llm", "retrieval", "evaluation", "machine-learning"]
+dependencies = [
+  "numpy>=1.24",
+  "requests>=2.31",
+  "scikit-learn>=1.3"
+]
+
+[project.scripts]
+rag-eval = "rag_eval_lab.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
