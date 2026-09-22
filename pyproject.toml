@@ -5,7 +5,7 @@ description = "Local-first retrieval evaluation toolkit for RAG systems."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{ name = "Evan Maksud" }]
-license = { text = "MIT" }
+license = "MIT"
 keywords = ["rag", "llm", "retrieval", "evaluation", "machine-learning"]
 dependencies = [
   "numpy>=1.24",
@@ -16,7 +16,9 @@ dependencies = [
 [project.scripts]
 rag-eval = "rag_eval_lab.cli:main"
 
+[tool.setuptools.packages.find]
+include = ["rag_eval_lab*"]
+
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
-
